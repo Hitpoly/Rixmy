@@ -248,10 +248,10 @@
     justify-content: center;
   }
   .containerLogo img{
-    width: 60%;
-    height: 70%;
+    width: 60px;
+    height: 60px;
     margin-bottom: 2%;
-    margin-left: 22%;
+    margin-left: 5%;
   }
   .containerNav li {
     margin-top: 70px;
@@ -322,10 +322,10 @@
     justify-content: center;
   }
   .containerLogo img{
-    width: 60%;
-    height: 80%;
-    margin-top: 8%;
-    margin-left: 22%;
+    width: 60px;
+    height: 60px;
+    margin-top: 10%;
+    margin-left: 5%;
   }
   .containerNav li {
     margin-top: 13%;
