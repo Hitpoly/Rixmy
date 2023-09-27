@@ -93,8 +93,8 @@ const SectionVideo = () => {
               </p>
             )}
             {/* Enlace del botón */}
-            <a className={SectionStyle.buttonLink} href="/">
-              BIENVENIDO A RIXMY
+            <a className={SectionStyle.buttonLink} href="https://bit.ly/3LCSZ5X">
+              CONTACTAR Y COTIZAR
             </a>
           </div>
         </div>
