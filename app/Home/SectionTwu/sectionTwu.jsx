@@ -1,7 +1,7 @@
 'use client'
 
 import SectionTwuStyle from './sectionTwuStyle.module.css'
-import Slideshow from '../../components/LandingPage/SlideShow/slideShow.jsx';
+import Slideshow from '../../components/LandingPage/Slideshow/slideShow';
 
 const SectionTwu = () => {
   const slides = [
