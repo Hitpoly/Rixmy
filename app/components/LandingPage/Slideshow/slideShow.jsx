@@ -5,6 +5,7 @@ import ArrowLeft from "../../Icons/ArrowLeft/Left.jsx";
 import ArrowRight from "../../Icons/ArrowRight/Right.jsx";
 import styles from "./SlideshowStyle.module.css";
 import TextoSection from "../TextoSeccion/Texto.jsx";
+import Image from 'next/image';
 
 const Slideshow = ({ slides }) => {
   const slideshow = useRef(null);
@@ -77,7 +78,7 @@ const Slideshow = ({ slides }) => {
         {slides.map((slide, index) => (
           <div key={index} className={styles.slide}>
             <a href={slide.link}>
-              <img src={slide.image} alt={slide.alt} />
+              <Image src={slide.image} alt={slide.alt} width={80} height={80}/>
             </a>
             <div className={styles.textoSlide}>
               <TextoSection

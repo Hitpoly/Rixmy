@@ -1,5 +1,6 @@
 import SectionThreeStyle from './sectionOne.module.css';
 import React from 'react';
+import Image from 'next/image';
 
 const SectionOne = () => {
 
@@ -7,7 +8,7 @@ const SectionOne = () => {
     <div className={SectionThreeStyle.sectionThree}>
       <div className={SectionThreeStyle.content}>
         <div className={SectionThreeStyle.logo}>
-          <img src='/images/section_logo.svg' alt='logo' />
+          <Image src='/images/section_logo.svg' alt='logo' width={100} height={100}/>
           <span>TRABAJÁMOS EN TODO LATINOAMERICA</span>
         </div>
         <h3>ESTAMOS EN BUSQUEDA DEL MEJOR TALENTO HUMANO.</h3>

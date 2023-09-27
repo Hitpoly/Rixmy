@@ -39,14 +39,14 @@ var Nav = () => {
         </Link>
       </li>
       <li className={NavStyle.liiconidioma}>
-        <img src="/images/es.png" alt="Menú" width={23} height={23} className={NavStyle.iconIdioma} />
+        <Image src="/images/es.png" alt="Menú" width={80} height={80} className={NavStyle.iconIdioma} />
       </li>
       <li>
-        <img
+        <Image
           src="/images/menu-uno.png"
           alt="Idioma"
-          width={30}
-          height={30}
+          width={80}
+          height={80}
           className={NavStyle.iconMenu}
           onClick={toggleMenu}
         />

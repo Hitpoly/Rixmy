@@ -1,13 +1,15 @@
 import React from 'react';
 import styles from './textoSection.style.module.css';
+import Image from 'next/image';
 
 const TextoSection = ({ imageUrl, altText, title, description, buttonText }) => {
   return (
     <div className={styles.sectionWrapper}>
       <div className={styles.topSection}>
-        <img 
+        <Image 
           src={imageUrl} 
           alt={altText} 
+          width={100} height={100}
           style={{ width: 'auto', height: 'auto' }}
         />
         <span className={styles.titleSpan}>{title}</span>

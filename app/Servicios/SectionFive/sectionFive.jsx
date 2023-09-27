@@ -1,5 +1,6 @@
 
 import SectionTwuStyle from './sectionFive.module.css';
+import Image from 'next/image';
 
 const SectionFive = () => {
 
@@ -8,7 +9,7 @@ const SectionFive = () => {
       <div className={SectionTwuStyle.contentFor}>
         <div className={SectionTwuStyle.contenido}>
           <div className={SectionTwuStyle.contenidologo}>
-            <img src='/images/section_logo.svg' alt='logo' />
+            <Image src='/images/section_logo.svg' alt='logo' width={100} height={100}/>
             <p>PARA ATRAER A TU BUYER PERSONA</p>
             <h3>PUBLICIDAD DIGITAL.</h3>
             <div className={SectionTwuStyle.content}>

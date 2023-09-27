@@ -1,5 +1,6 @@
 import SectionFiveStyle from './sectionThree.module.css';
 import React from 'react';
+import Image from 'next/image';
 
 const SectionThree = () => {
 
@@ -7,7 +8,7 @@ const SectionThree = () => {
     <div className={SectionFiveStyle.sectionThree}>
       <div className={SectionFiveStyle.content}>
         <div className={SectionFiveStyle.logo}>
-          <img src='/images/section_logo.svg' alt='logo' />
+          <Image src='/images/section_logo.svg' alt='logo' width={100} height={100}/>
           <span>PARA ATRAER A TU BUYER PERSONA</span>
         </div>
         <h3>SOCIAL MEDIA.</h3>

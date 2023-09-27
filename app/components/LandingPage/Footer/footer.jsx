@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faYoutube, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'; // Importa los iconos de Font Awesome
 
@@ -8,7 +9,7 @@ const Footer = () => {
     return (
         <div className={FooterStyle.contentFooter}>
             <div className={FooterStyle.logoConact}>
-                <img src="/images/vectorRrixmyBlanco.png" alt='Logo-Footer' width={217} height={80} />
+                <Image src="/images/vectorRrixmyBlanco.png" alt='Logo-Footer' width={217} height={80} />
                 <p>
                 <a href="https://www.bing.com/maps?q=lima+per%C3%BA+mapa&FORM=HDRSC6&cp=-12.05997%7E-77.037475&lvl=13.8"> Lima - Perú</a> /  
                     <a href="mailto:agencia@rixmy.com"> agencia@rixmy.com</a> / 

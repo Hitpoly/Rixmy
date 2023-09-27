@@ -6,7 +6,7 @@ import Slideshow from '../../components/LandingPage/Slideshow/slideShow';
 const SectionTwu = () => {
   const slides = [
     {
-      image: "./images/services.jpg",
+      image: "/images/services.jpg",
       alt: "inbound marketing",
       link: "#",
       imageUrl: '/items/section_logo.svg',
@@ -19,7 +19,7 @@ const SectionTwu = () => {
     },
     
     {
-      image: "./images/to_attract_your_buyer_persona.jpg",
+      image: "/images/to_attract_your_buyer_persona.jpg",
       alt: "inbound marketing",
       link: "#",
       imageUrl: '/items/section_logo.svg',
@@ -31,7 +31,7 @@ const SectionTwu = () => {
         },
     },
     {
-      image: "./images/to_attract_your_buyer_persona_2.jpg",
+      image: "/images/to_attract_your_buyer_persona_2.jpg",
       alt: "inbound marketing",
       link: "#",
       imageUrl: '/items/section_logo.svg',
@@ -43,7 +43,7 @@ const SectionTwu = () => {
         },
     },
     {
-      image: "./images/to_attract_your_buyer_persona_3.jpg",
+      image: "/images/to_attract_your_buyer_persona_3.jpg",
       alt: "inbound marketing",
       link: "#",
       imageUrl: '/items/section_logo.svg',
@@ -55,7 +55,7 @@ const SectionTwu = () => {
         },
     },
     {
-      image: "./images/to_attract_your_buyer_persona_4.jpg",
+      image: "/images/to_attract_your_buyer_persona_4.jpg",
       alt: "inbound marketing",
       link: "#",
       imageUrl: '/items/section_logo.svg',
@@ -67,7 +67,7 @@ const SectionTwu = () => {
         },
     },
     {
-      image: "./images/to_attract_your_buyer_persona_5.jpg",
+      image: "/images/to_attract_your_buyer_persona_5.jpg",
       alt: "inbound marketing",
       link: "#",
       imageUrl: '/items/section_logo.svg',
@@ -79,7 +79,7 @@ const SectionTwu = () => {
         },
     },
     {
-      image: "./images/to_convert_your_buyer_persona.jpg",
+      image: "/images/to_convert_your_buyer_persona.jpg",
       alt: "inbound marketing",
       link: "#",
       imageUrl: '/items/section_logo.svg',
@@ -91,7 +91,7 @@ const SectionTwu = () => {
         },
     },
     {
-      image: "./images/to_close_sales_with_your_buyer_persona_4.jpg",
+      image: "/images/to_close_sales_with_your_buyer_persona_4.jpg",
       alt: "inbound marketing",
       link: "#",
       imageUrl: '/items/section_logo.svg',
@@ -103,7 +103,7 @@ const SectionTwu = () => {
         },
     },
     {
-      image: "./images/to_close_sales_with_your_buyer_persona_2.jpg",
+      image: "/images/to_close_sales_with_your_buyer_persona_2.jpg",
       alt: "inbound marketing",
       link: "#",
       imageUrl: '/items/section_logo.svg',
@@ -115,7 +115,7 @@ const SectionTwu = () => {
         },
     },
     {
-      image: "./images/other_services_2.jpg",
+      image: "/images/other_services_2.jpg",
       alt: "inbound marketing",
       link: "#",
       imageUrl: '/items/section_logo.svg',
@@ -127,7 +127,7 @@ const SectionTwu = () => {
         },
     },
     {
-      image: "./images/capabilities_that_deliver.jpg",
+      image: "/images/capabilities_that_deliver.jpg",
       alt: "inbound marketing",
       link: "#",
       imageUrl: '/items/section_logo.svg',
@@ -139,7 +139,7 @@ const SectionTwu = () => {
         },
     },
     {
-      image: "./images/to_close_sales_with_your_buyer_persona_3.jpg",
+      image: "/images/to_close_sales_with_your_buyer_persona_3.jpg",
       alt: "inbound marketing",
       link: "#",
       imageUrl: '/items/section_logo.svg',
