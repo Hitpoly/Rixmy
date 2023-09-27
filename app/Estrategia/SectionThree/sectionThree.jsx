@@ -25,7 +25,8 @@ const SectionFor = () => {
           <p className={SectionThreeStyle.letrasubrayada} >VENTAS</p>
           <p>Los metodos convencionales, quedaron obsoletos, aportamos valor al consumidor.</p>
           <p className={SectionThreeStyle.letrasubrayada}>SERVICIO AL CLIENTE</p>
-          <p>Nada sirve si el cliente queda en el olvido, no solo lo acompañamos 'LO DELEITAMOS CON TU GAMA DE PRODUCTOS O SERVICIOS'</p>
+          <p>Nada sirve si el cliente queda en el olvido, no solo lo acompañamos &quot;LO DELEITAMOS CON TU GAMA DE PRODUCTOS O SERVICIOS&quot;</p>
+
         </div>
       </div>
     </div>
