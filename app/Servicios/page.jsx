@@ -32,7 +32,7 @@ const Servicios = () => {
         <div className={PageStyle.elemento2Caja}>
           <SectionSix />
           <div className={PageStyle.elemento2}>
-            <img src="./images/elemento1section.png" alt="elemento" width={100} height={100} />
+            <Image src="./images/elemento1section.png" alt="elemento" width={100} height={100} />
           </div>
         </div>
         <SectionSeven />
@@ -41,7 +41,7 @@ const Servicios = () => {
         <div className={PageStyle.elemento2Caja}>
           <SectionTen />
           <div className={PageStyle.elemento2}>
-            <img src="./images/elemento1section.png" alt="elemento" width={100} height={100} />
+            <Image src="./images/elemento1section.png" alt="elemento" width={100} height={100} />
           </div>
         </div>
         <SectionEleven />
