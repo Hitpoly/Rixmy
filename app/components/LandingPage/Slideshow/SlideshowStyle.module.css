@@ -63,6 +63,8 @@
     width: 100%;
     height: 100%;
     pointer-events: none;
+    display: flex;
+    align-items: center;
 }
 
 .boton {
@@ -71,7 +73,7 @@
     border: none;
     cursor: pointer;
     width: 50px;
-    height: 100%;
+    height: 50px;
     text-align: center;
     position: absolute;
 }
@@ -81,7 +83,7 @@
 }
 
 .boton.derecho {
-    right: 0;
+    left: 95%;
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
