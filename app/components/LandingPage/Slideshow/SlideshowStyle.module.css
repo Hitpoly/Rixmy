@@ -13,7 +13,7 @@
     display: flex;
     position: relative;
     overflow: hidden;
-    transition: .3s ease all;
+    transition: transform 0.3s ease;
     z-index: 10;
     width: 100%;
     min-width: 100%;
@@ -70,7 +70,6 @@
     background: none;
     border: none;
     cursor: pointer;
-    outline: none;
     width: 50px;
     height: 100%;
     text-align: center;
