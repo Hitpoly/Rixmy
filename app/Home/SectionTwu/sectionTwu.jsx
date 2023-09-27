@@ -3,7 +3,7 @@
 import SectionTwuStyle from './sectionTwuStyle.module.css'
 import Slideshow from '../../components/LandingPage/slideShow/slideShow';
 
-const Carrusel = () => {
+const SectionTwu = () => {
   const slides = [
     {
       image: "./images/services.jpg",
@@ -160,5 +160,5 @@ const Carrusel = () => {
   );
 };
 
-export default Carrusel;
+export default SectionTwu;
 
