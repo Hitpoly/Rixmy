@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from './sectionTwu.module.css';
+import Image from 'next/image';
 
 const SectionTwu = () => {
   return (
     <div className={styles.sectionContainer}>
         <div className={styles.memberContainer}>
           <div className={styles.imageContainer}>
-            <img src="./images/perfiles/denis.jpeg" alt="" className={styles.image} />
+            <Image src="./images/perfiles/denis.jpeg" alt="" className={styles.image} width={100} height={100}/>
           </div>
           <div className={styles.textContainer}>
             <p className={styles.name}>Denis P. Olivares</p>

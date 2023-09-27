@@ -70,8 +70,9 @@ const SectionVideo = () => {
         <div className={SectionStyle.sectionWrapper}>
           {/* Sección superior con logo y título */}
           <div className={SectionStyle.topSection}>
-            <img
+            <Image
               src='/images/section_logo.svg'
+              width={100} height={100}
               alt='logo'
               style={{ width: 'auto', height: 'auto' }}
             />
