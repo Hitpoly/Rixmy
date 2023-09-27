@@ -1,0 +1,376 @@
+.containerNav {
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  width: 6.5%;
+  flex-direction: column;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  z-index: 100;
+}
+
+.containerNav li {
+  margin-top: 20%;
+}
+
+.containerLogo{
+  z-index: 500;
+}
+.containerLogo img {
+  width: 100%;
+  height: 90%;
+}
+
+.iconIdioma {
+  width: 100%;
+  height: 30%;
+  display: flex;
+}
+
+.liiconidioma {
+  display: flex;
+  margin-left: 10%;
+}
+
+.liiconidioma::after {
+  content: "";
+  display: flex;
+  margin-top: 5%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 0 5px 7px;
+  border-color: transparent transparent transparent #E03138;
+}
+
+.iconMenu {
+  width: 100%;
+  height: 23%;
+}
+
+.containerNav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.contactanos {
+  position: absolute;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 2.1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  bottom: 5%;
+}
+
+.submenu {
+  width: 15vw;
+  height: 100vh;
+  position: absolute;
+  left: 100%;
+  top: -2.5%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-content: center;
+  border-right: 1px solid #ffffff;
+  border-radius: 0 10px 10px 0;
+  color: #ffffff;
+  z-index: 200;
+  gap: 5%;
+}
+
+.submenu li {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  font-size: 1.2rem;
+  color: white;
+  margin-left: 5%;
+  gap: 3%;
+}
+
+.submenu li::after {
+  content: '';
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 90%;
+  height: 1px;
+  background-color: #E03138;
+  /* Ajusta el color de la línea */
+  opacity: 0;
+  /* Establece la opacidad en 0 por defecto */
+  transition: opacity 0.3s ease;
+  /* Agrega una transición suave */
+}
+
+.submenu li:hover::after {
+  opacity: 1;
+  /* Cambia la opacidad a 1 al pasar el mouse */
+}
+
+.submenu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.submenuIconHome {
+  display: flex;
+  font-size: 3rem;
+  margin-left: 40%;
+  color: #E03138;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .containerNav {
+    width: 8%;
+  }
+  .contactanos {
+    position: absolute;
+    font-size: 1.9rem;
+  }
+  .submenu {
+    width: 19vw;
+  }
+  .submenu li {
+    font-size: 1rem; 
+  }
+  .submenuIconHome {
+    margin-left: 38%;
+  }
+  .containerLogo img {
+    width: 100%;
+    height: 90%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .containerNav {
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    top: 0px;
+  }
+  .containerLogo{
+    position: relative;
+    left: 6%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .containerLogo img{
+    width: 70px;
+    height: 70px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .containerNav li {
+    margin-top: 70px;
+  }
+  .containerNav > li:nth-child(1) {
+    order: 2;
+  }
+  
+  .containerNav > li:nth-child(2) {
+    order: 3;
+    width: 30px;
+    margin-bottom: 20px;
+    height: 60px; 
+  }
+
+  .liiconidioma::after {
+    margin-top: 16%;
+  }
+  
+  .containerNav > li:nth-child(3) {
+    order: 1;
+    width: 20px;
+    height: 80px;
+  }
+  
+  .contactanos {
+    display: none;
+  }
+  .submenu {
+    display: flex;
+    width: 200px;
+    height: 100vh;
+    position: absolute;
+    left: 0%;
+    top: 30px;
+    gap: 10px;
+  }
+  .submenu li {
+    font-size: 1rem;
+    gap: 3%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    position: relative;
+    bottom: 50px;
+  }
+  .submenuIconHome {
+    margin-left: 35%;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .containerNav {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    top: 0px;
+  }
+  .containerLogo{
+    position: relative;
+    left: 8%;
+    bottom: 10%;
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .containerLogo img{
+    width: 60%;
+    height: 70%;
+    margin-bottom: 2%;
+    margin-left: 22%;
+  }
+  .containerNav li {
+    margin-top: 70px;
+  }
+  .containerNav > li:nth-child(1) {
+    order: 2;
+  }
+  
+  .containerNav > li:nth-child(2) {
+    order: 3;
+    width: 30px;
+    height: 60px; 
+    margin-top: 50px;
+  }
+
+  .liiconidioma::after {
+    margin-top: 10%;
+  }
+  
+  .containerNav > li:nth-child(3) {
+    order: 1;
+    width: 20px;
+    height: 80px;
+  }
+  
+  .contactanos {
+    display: none;
+  }
+  .submenu {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    gap: 0%;
+  }
+  .submenu li {
+    font-size: 1rem;
+    gap: 3%;
+    top: -50px;
+    margin-top: 50px;
+  }
+  .submenuIconHome {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .containerNav {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    top: 0px;
+  }
+
+  .containerLogo{
+    position: relative;
+    left: 8%;
+    bottom: 5%;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .containerLogo img{
+    width: 60%;
+    height: 80%;
+    margin-top: 8%;
+    margin-left: 22%;
+  }
+  .containerNav li {
+    margin-top: 13%;
+  }
+  .containerNav > li:nth-child(1) {
+    order: 2;
+  }
+  
+  .containerNav > li:nth-child(2) {
+    position: relative;
+    left: 3%;
+    order: 3;
+    width: 5%;
+    height: 80%; 
+    margin-top: 10%;
+  }
+
+  .liiconidioma::after {
+    margin-top: 10%;
+  }
+  
+  .containerNav > li:nth-child(3) {
+    order: 1;
+    width: 4%;
+    height: 100%;
+  }
+  
+  .contactanos {
+    display: none;
+  }
+  .submenu {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0%;
+    top: 16%;
+    gap: 15%;
+  }
+  .submenu li {
+    font-size: 1rem;
+    gap: 3%;
+    bottom: 10%;
+    margin-top: 10%;
+  }
+  .submenuIconHome {
+    display: none;
+  }
+}

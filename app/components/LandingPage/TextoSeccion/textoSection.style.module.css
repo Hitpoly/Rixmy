@@ -1,0 +1,169 @@
+/* styles.module.css */
+
+.sectionWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Alinea los elementos a la izquierda */
+  margin-left: 3%;
+  top: 4%;
+  width: 90%;
+  font-family: 'Montserrat', sans-serif;
+  /* Agrega más estilos según sea necesario */
+}
+
+  
+.topSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinea el contenido a la izquierda verticalmente */
+  width: 100%;
+  margin-left: .5%;
+  /* Estilos para la parte superior */
+}
+
+.topSection img {
+  margin-bottom: 5px;
+}
+
+  
+  .titleSpan {
+    font-size: .9em;
+    /* Estilos para el título */
+  }
+  
+  .mainTextSection {
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    margin-top: 2%;
+    /* Estilos para la sección principal de texto */
+  }
+  
+  .mainTitle {
+    font-size: 3em;
+    font-weight: 900;
+    /* Estilos para el título principal */
+  }
+  
+  .descriptionParagraph {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 3%;
+    width: 90%;
+    /* Estilos para el párrafo de descripción */
+  }
+  
+  .buttonLink {
+    font-size: 1.1em;
+    width: 40%;
+    font-weight: 600;
+    margin-top: 3%;
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .buttonLink::before {
+    content: "";
+    display: flex;
+    margin-top: 3px;
+    margin-right: 5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 8px;
+    border-color: transparent transparent transparent #ffffff;
+  }
+  
+  .buttonLink:hover {
+    text-decoration: underline;
+    /* Estilos para el botón */
+  }
+  
+
+  @media (min-width: 1024px) and (max-width: 1279px) {
+
+    .titleSpan {
+      font-size: .8em;
+    }
+    .mainTextSection {
+      width: 65%;
+    }
+    .mainTitle {
+      font-size: 2em;
+    }
+    .descriptionParagraph {
+      font-size: 1.1em;
+    }
+    .buttonLink {
+      font-size: 1em;
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px){
+     
+    .titleSpan {
+      font-size: .8em;
+    }
+    .mainTextSection {
+      width: 65%;
+    }
+    .mainTitle {
+      font-size: 1.8em;
+    }
+    .descriptionParagraph {
+      font-size: 1em;
+    }
+    .buttonLink {
+      font-size: .9em;
+      width: 50%;
+    }
+
+  }
+
+  @media (min-width: 481px) and (max-width: 767px){
+     
+    .titleSpan {
+      font-size: .8em;
+    }
+    .mainTextSection {
+      width: 75%;
+    }
+    .mainTitle {
+      font-size: 1.8em;
+    }
+    .descriptionParagraph {
+      font-size: 1em;
+      margin-top: 7%;
+    }
+    .buttonLink {
+      margin-top: 10%;
+      font-size: .9em;
+      width: 90%;
+    }
+
+  }
+
+  @media (max-width: 480px) {
+    .titleSpan {
+      font-size: .8em;
+    }
+    .mainTextSection {
+      width: 75%;
+    }
+    .mainTitle {
+      font-size: 1.8em;
+    }
+    .descriptionParagraph {
+      font-size: .9em;
+      margin-top: 7%;
+    }
+    .buttonLink {
+      margin-top: 10%;
+      font-size: .9em;
+      width: 90%;
+    }
+  }

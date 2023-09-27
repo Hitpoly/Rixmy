@@ -1,0 +1,58 @@
+.elemento {
+    position: absolute;
+    top: 90%;
+    width: 93.5%;
+    height: 100%;
+    z-index: 90;
+}
+
+.elemento img{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+    .elemento {
+        position: absolute;
+        top: 90%;
+        width: 93.5%;
+        height: 600px;
+        z-index: 90;
+    }
+
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .elemento {
+        position: absolute;
+        top: 110%;
+        width: 100%;
+        height: 500px;
+        z-index: 90;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .elemento {
+        position: absolute;
+        top: 110%;
+        width: 100%;
+        height: 400px;
+        z-index: 90;
+    }
+  }
+  
+  @media (max-width: 480px) {
+
+    .elemento {
+        position: absolute;
+        top: 110%;
+        width: 100%;
+        height: 300px;
+        z-index: 90;
+    }
+
+  }
