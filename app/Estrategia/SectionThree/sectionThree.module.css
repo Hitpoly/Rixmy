@@ -141,6 +141,8 @@
       display: flex;
       align-items: baseline;
       flex-direction: column;
+      height: 100%;
+      padding-top: 30px;
     }
     .content {
       width: 60%;
@@ -177,13 +179,21 @@
     .metodo {
       width: 95%;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-content: center;
       color: white;
       margin-left: 0%;
       position: relative;
-      bottom: 4%;
+      bottom: 0%;
+      padding-bottom: 30px;
       gap: 15px;
+    }
+
+    .fila{
+      width: 80%;
+    }
+    .filaTwu{
+      width: 80%;
     }
     .metodo .letrasubrayada{
       font-size: 1.3em;
@@ -203,6 +213,8 @@
       display: flex;
       align-items: baseline;
       flex-direction: column;
+      height: 100%;
+      padding-top: 30px;
     }
     .content {
       width: 60%;
@@ -241,13 +253,21 @@
     .metodo {
       width: 95%;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-content: center;
       color: white;
       margin-left: 0%;
       position: relative;
-      bottom: 4%;
+      bottom: 2%;
+      padding-bottom: 30px;
       gap: 15px;
+    }
+
+    .fila{
+      width: 80%;
+    }
+    .filaTwu{
+      width: 80%;
     }
 
     .metodo .letrasubrayada{
@@ -256,6 +276,6 @@
       margin-top: 20px;
     }
     .metodo p{
-      font-size: .8em;
+      font-size: 1em;
     }
   }

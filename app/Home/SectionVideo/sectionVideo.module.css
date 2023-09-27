@@ -210,14 +210,20 @@
     font-size: 0.8em;
   }
 
+  .mainTextSection{
+     width: 90%;
+  }
+
   .mainTitle {
     font-size: 1.8em;
     font-weight: 900;
+    width: 100%;
   }
   
   .descriptionParagraph {
     margin-top: 7%;
     font-size: 1em;
+    width: 100%;
   }
   .buttonLink {
     margin-top: 10%;

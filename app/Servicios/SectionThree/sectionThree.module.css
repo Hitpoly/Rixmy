@@ -30,7 +30,7 @@
 }
 
 .logo img {
-  width: 12%;
+  width: 80px;
   /* La imagen ocupa el 100% del ancho disponible en .logo */
   height: auto;
 
@@ -81,7 +81,7 @@
   }
   
   .content p {
-    font-size: .9em;
+    font-size: 1em;
   }
 
 }
@@ -95,13 +95,13 @@
     font-size: .8em;
   }
   .content h3 {
-    font-size: 1.8em;
+    font-size: 2em;
     font-weight: 900;
     margin-bottom: 4%;
   }
   
   .content p {
-    font-size: .9em;
+    font-size: 1em;
   }
 
 }

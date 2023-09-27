@@ -451,6 +451,8 @@
       display: flex;
       align-items: baseline;
       flex-direction: column;
+      height: 100%;
+      padding-top: 30px;
       
     }
     .content {
@@ -484,28 +486,28 @@
     .metodo {
       width: 90%;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-content: center;
       color: white;
       margin-left: 5%;
       position: relative;
-      bottom: 12%;
+      bottom: 5%;
       gap: 15px;
     }
     .filauno{
-      width: 50%;
+      width: 80%;
     }
     
     .filados{
-      width: 50%;
+      width: 80%;
     }
     .metodo p {
-      font-size: .8em;
+      font-size: 1em;
     }
 
     .metodo .letrasubrayada{
       width: 100%;
-      font-size: .8em;
+      font-size: 1.1em;
       font-weight: 900;
       margin-top: 20px;
     }
