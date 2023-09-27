@@ -6,7 +6,7 @@ import SectionFive from "./Home/SectionFive/sectionFive.jsx";
 import SectionVideo from "./Home/SectionVideo/sectionVideo.jsx";
 import LandingStyle from "./page.module.css";
 import Layout from "./components/LandingPage/Layout/layout.jsx";
-import Image from "next/image.js";
+import Image from "next/image";
 
 var Home = () => {
   return (
@@ -23,10 +23,10 @@ var Home = () => {
       <div className={LandingStyle.contentSectionsTrue}>
         <div className={LandingStyle.elemento}>
           <Image
-            src="./images/elemento1section.png"
+            src="/images/elemento1section.png"
             alt="elemento"
-            width={100}
-            height={100}
+            width={1200}
+            height={400}
           />
         </div>
         <SectionTrue />

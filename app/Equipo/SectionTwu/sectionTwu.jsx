@@ -7,7 +7,7 @@ const SectionTwu = () => {
     <div className={styles.sectionContainer}>
         <div className={styles.memberContainer}>
           <div className={styles.imageContainer}>
-            <Image src="./images/perfiles/denis.jpeg" alt="" className={styles.image} width={100} height={100}/>
+            <Image src="/images/perfiles/denis.jpeg" alt="" className={styles.image} width={300} height={400}/>
           </div>
           <div className={styles.textContainer}>
             <p className={styles.name}>Denis P. Olivares</p>
@@ -20,7 +20,7 @@ const SectionTwu = () => {
         </div>
         <div className={styles.memberContainer}>
           <div className={styles.imageContainer}>
-            <Image src="./images/perfiles/belgica.jpeg" alt="" className={styles.image} />
+            <Image src="/images/perfiles/belgica.jpeg" alt="" className={styles.image} width={300} height={400}/>
           </div>
           <div className={styles.textContainer}>
             <p className={styles.name}>Bélgica Gill</p>
@@ -32,7 +32,7 @@ const SectionTwu = () => {
         </div>
         <div className={styles.memberContainer}>
           <div className={styles.imageContainer}>
-            <Image src="./images/perfiles/eduardo.jpeg" alt="" className={styles.image} />
+            <Image src="/images/perfiles/eduardo.jpeg" alt="" className={styles.image} width={300} height={400}/>
           </div>
           <div className={styles.textContainer}>
             <p className={styles.name}>Eduardo C. Ismael</p>

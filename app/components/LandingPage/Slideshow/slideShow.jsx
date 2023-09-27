@@ -78,7 +78,7 @@ const Slideshow = ({ slides }) => {
         {slides.map((slide, index) => (
           <div key={index} className={styles.slide}>
             <a href={slide.link}>
-              <Image src={slide.image} alt={slide.alt} width={80} height={80}/>
+              <Image src={slide.image} alt={slide.alt} width={1300} height={800}/>
             </a>
             <div className={styles.textoSlide}>
               <TextoSection

@@ -14,7 +14,7 @@ const Servicios = () => {
       <div>
         <SectionOne />
         <div className={PageStyle.elemento}>
-          <Image src="./images/elemento1section.png" alt="elemento" width={100} height={100} />
+          <Image src="/images/elemento1section.png" alt="elemento" width={1200} height={400}/>
         </div>
         <SectionTwu />
         <SectionThree />
