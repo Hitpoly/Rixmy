@@ -35,7 +35,7 @@ var Nav = () => {
     <ul className={NavStyle.containerNav}>
       <li className={NavStyle.containerLogo}>
         <Link href="/">
-          <Image src="/images/rixmy_logo.png" alt="Logo" width={100} height={100}/>
+          <Image src="/images/rixmy_logo.png" alt="Logo" width={400} height={300}/>
         </Link>
       </li>
       <li className={NavStyle.liiconidioma}>

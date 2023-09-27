@@ -53,7 +53,6 @@ const SectionOne = () => {
   return (
     <div className={SectionOneStyle.contenedor}>
       <div className={SectionOneStyle.caja}></div>
-      <div className={SectionOneStyle.envoltura}></div>
       <div className={SectionOneStyle.content}>
         <div 
           ref={sectionRef}

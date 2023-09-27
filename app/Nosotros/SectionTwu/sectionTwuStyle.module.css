@@ -150,7 +150,7 @@
     width: 93.5%;
   }
   .containerSectionFor::before {
-    height: 80px;
+    height: 100px;
   }
   .contentFor h3 {
     font-size: 1.8em;
