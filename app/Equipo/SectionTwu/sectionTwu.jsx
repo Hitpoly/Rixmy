@@ -20,7 +20,7 @@ const SectionTwu = () => {
         </div>
         <div className={styles.memberContainer}>
           <div className={styles.imageContainer}>
-            <img src="./images/perfiles/belgica.jpeg" alt="" className={styles.image} />
+            <Image src="./images/perfiles/belgica.jpeg" alt="" className={styles.image} />
           </div>
           <div className={styles.textContainer}>
             <p className={styles.name}>Bélgica Gill</p>
@@ -32,7 +32,7 @@ const SectionTwu = () => {
         </div>
         <div className={styles.memberContainer}>
           <div className={styles.imageContainer}>
-            <img src="./images/perfiles/eduardo.jpeg" alt="" className={styles.image} />
+            <Image src="./images/perfiles/eduardo.jpeg" alt="" className={styles.image} />
           </div>
           <div className={styles.textContainer}>
             <p className={styles.name}>Eduardo C. Ismael</p>

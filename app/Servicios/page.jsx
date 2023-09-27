@@ -14,6 +14,7 @@ import SectionTen from './SectionTen/sectionTen';
 import SectionEleven from './SectionEleven/sectionEleven';
 import SectionTwelve from './SectionTwelve/sectionTwelve';
 import Layout from '../components/LandingPage/Layout/layout';
+import Image from 'next/image';
 
 const Servicios = () => {
 
@@ -22,7 +23,7 @@ const Servicios = () => {
       <div>
         <SectionOne />
         <div className={PageStyle.elemento}>
-          <img src="./images/elemento1section.png" alt="elemento" width={100} height={100} />
+          <Image src="./images/elemento1section.png" alt="elemento" width={100} height={100} />
         </div>
         <SectionTwu />
         <SectionThree />
