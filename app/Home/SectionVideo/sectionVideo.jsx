@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import SectionStyle from './sectionVideo.module.css';
-import Video from 'next/image';
+import Image from 'next/image';
 
 const SectionVideo = () => {
   const [showText, setShowText] = useState(false); // Controla la visibilidad del título animado
