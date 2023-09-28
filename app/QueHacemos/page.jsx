@@ -1,6 +1,6 @@
 
 import React from 'react';
-import PageStyle from './pageServicios.module.css';
+import PageStyle from './queHacemos.module.css';
 import SectionOne from './SectionOne/sectionOne';
 import SectionTwu from './SectionTwu/sectionTwu';
 import SectionThree from './SectionThree/sectionThree';
@@ -12,8 +12,10 @@ const Servicios = () => {
   return (
     <Layout>
       <div>
-        <SectionOne />
+        <div className={PageStyle.sectionOne} >
+          <SectionOne />
           <Image src="/images/elemento1section.png" alt="elemento" width={1200} height={400} className={PageStyle.image} />
+        </div>
         <SectionTwu />
         <SectionThree />
       </div>
