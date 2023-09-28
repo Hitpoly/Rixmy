@@ -13,9 +13,7 @@ const Servicios = () => {
     <Layout>
       <div>
         <SectionOne />
-        <div className={PageStyle.elemento}>
-          <Image src="/images/elemento1section.png" alt="elemento" width={1200} height={400}/>
-        </div>
+          <Image src="/images/elemento1section.png" alt="elemento" width={1200} height={400} className={PageStyle.image} />
         <SectionTwu />
         <SectionThree />
       </div>
