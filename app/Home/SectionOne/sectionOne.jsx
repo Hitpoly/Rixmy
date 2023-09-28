@@ -2,6 +2,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import TextoSection from '../../components/LandingPage/TextoSeccion/Texto';
 import SectionOneStyle from './sectionOne.module.css';
+import Link from 'next/link';
 
 const SectionOne = () => {
   const [opacity, setOpacity] = useState(0);
@@ -43,11 +44,12 @@ const SectionOne = () => {
     altText: 'logo-section',
     title: 'ESTRATÉGIA',
     description: {
-      title: 'NOS ENFOCAMOS EN LAS OPORTUNIDADES DE CRECIMIENTO PARA TU EMPRESA',
+      title: 'NOS ENFOCAMOS EN LAS OPORTUNIDADES DE CRECIMIENTO PARA TU EMPRESA.',
       text:
         'En medio de una crisis global, nuestro equipo de profesionales a través de las estrategias de Inbound Marketing y la metodología de Rixmy posee las herramientas para superar tus expectativas.',
     },
     buttonText: 'CONOCER ESTRATEGIAS',
+    buttonLink: '../Estrategia',
   };
 
   return (
@@ -68,6 +70,7 @@ const SectionOne = () => {
           title={sectionData.title}
           description={sectionData.description}
           buttonText={sectionData.buttonText}
+          buttonLink={sectionData.buttonLink}
         />
         </div>
       </div>

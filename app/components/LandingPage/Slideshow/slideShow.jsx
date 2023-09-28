@@ -87,6 +87,7 @@ const Slideshow = ({ slides }) => {
                 title={slide.title}
                 description={slide.description}
                 buttonText="CONOCER SERVICIO"
+                buttonLink={slide.buttonLink}
               />
             </div>
           </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './textoSection.style.module.css';
 import Image from 'next/image';
 
-const TextoSection = ({ imageUrl, altText, title, description, buttonText }) => {
+const TextoSection = ({ imageUrl, altText, title, description, buttonText, buttonLink }) => {
   return (
     <div className={styles.sectionWrapper}>
       <div className={styles.topSection}>
@@ -18,7 +18,9 @@ const TextoSection = ({ imageUrl, altText, title, description, buttonText }) => 
         <div className={styles.mainTitle}>{description.title}</div>
         <p className={styles.descriptionParagraph}>{description.text}</p>
         {buttonText && (
-          <a className={styles.buttonLink} href="/">{buttonText}</a>
+          <a className={styles.buttonLink} href={buttonLink}>
+            {buttonText}
+          </a>
         )}
       </div>
     </div>

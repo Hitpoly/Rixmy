@@ -38,11 +38,12 @@ const SectionTrue = () => {
     altText: 'logo-section',
     title: '¿QUÉ HACEMOS?',
     description: {
-      title: 'POTENCIAMOS TU MARCA',
+      title: 'POTENCIAMOS TU MARCA.',
       text:
         'Te ayudamos a generar un flujo constante de clientes, a generar una relación con ellos y a convertirlos en embajadores de Marca. En definitiva "Aumentamos la rentabilidad de tu empresa".',
     },
     buttonText: 'CONOCER MÁS',
+    buttonLink: '../QueHacemos'
   };
 
   return (
@@ -60,6 +61,7 @@ const SectionTrue = () => {
           title={sectionData.title}
           description={sectionData.description}
           buttonText={sectionData.buttonText}
+          buttonLink={sectionData.buttonLink}
         />
       </div>
     </div>

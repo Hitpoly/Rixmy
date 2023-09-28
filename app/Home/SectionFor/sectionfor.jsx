@@ -38,11 +38,12 @@ const SectionFor = () => {
     altText: 'logo-section',
     title: 'TENDENCIA',
     description: {
-      title: 'SERVICIOS DE INBOUND MARKETING EXPANDE TU EMPRESA',
+      title: 'SERVICIOS DE INBOUND MARKETING EXPANDE TU EMPRESA.',
       text:
         'En la actualidad los clientes evolucionaron y ya saben cómo buscar en las plataformas digitales lo que desean sin mucho esfuerzo. Sin embargo, necesitan compañía durante el proceso de compra y estrategias de Inbound Marketing que puedan influir en la adquisición del producto.',
     },
     buttonText: 'CONOCE MÁS',
+    buttonLink: '../Nosotros',
   };
 
   return (
@@ -62,6 +63,7 @@ const SectionFor = () => {
             title={sectionForData.title}
             description={sectionForData.description}
             buttonText={sectionForData.buttonText}
+            buttonLink={sectionForData.buttonLink}
           />
         </div>
       </div>

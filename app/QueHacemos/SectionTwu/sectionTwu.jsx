@@ -11,7 +11,7 @@ const SectionTWu = () => {
     description: {
       title: 'QUEREMOS SER TUS ALIADOS ESTRATEGICOS, DE POR VIDA.',
       text:
-        '¡Al ayudarte a crecer de forma escalona, Nosotros también crecemos!!. Tus referencias, recomendaciones y buenos comentarios, aportan mucho valor a nuestros objetivos de expansión. Por eso nos acoplándonos de forma estratégica a la inversión disponible sobre la mesa y te acompañamos desde los pequeños hasta los increíblemente grandes RESULTADOS',
+        '¡Al ayudarte a crecer de forma escalona, Nosotros también crecemos!!. Tus referencias, recomendaciones y buenos comentarios, aportan mucho valor a nuestros objetivos de expansión. Por eso nos acoplámos de forma estratégica a la inversión disponible sobre la mesa y te acompañamos desde los pequeños hasta los increíblemente grandes RESULTADOS',
     },
   };
 

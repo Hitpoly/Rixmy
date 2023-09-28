@@ -40,9 +40,10 @@ const SectionFive = () => {
     description: {
       title: '¿QUIERES PERTENECER A UN EQUIPO DE CAMPEONES?',
       text:
-        'Aprovecha esta oportunidad buscamos profesionales que desean crecer con nosotros y ganar conocimiento. Tendrás la oportunidad de avanzar y desarrollarte en diferentes áreas de acción de Rixmy.',
+        'Aprovecha la OPORTUNIDAD de trabajar con profesionales de primer nivel, que desean crecer contigo y llavarte a un verdadero proceso de CRECIMIENTO INTERNACIONAL. Tendrás la oportunidad de conocer el verdadero PODER del INBOUND MARKETING',
     },
-    buttonText: 'CONOCER MÁS',
+    buttonLink: 'https://bit.ly/3LoiWWB',
+    buttonText: 'CONTACTAR',
   };
 
   return (
@@ -60,6 +61,7 @@ const SectionFive = () => {
           title={SectionFiveData.title}
           description={SectionFiveData.description}
           buttonText={SectionFiveData.buttonText}
+          buttonLink={SectionFiveData.buttonLink}
         />
       </div>
     </div>

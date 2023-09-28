@@ -10,7 +10,7 @@ const SectionOne = () => {
     altText: 'logo-section',
     title: '¿QUE HACEMOS?',
     description: {
-      title: 'AYUDAMOS A ESTABLECER RELACIONES DURADERAS, ENTRE MARCA Y PERSONA',
+      title: 'AYUDAMOS A ESTABLECER RELACIONES DURADERAS, ENTRE MARCA Y PERSONA.',
       text:
         'No solo ayudamos a aumentar el volumen de ventas, si no que más bien nuestro enfoque es lograr que ese volumen de ventas permanezca haciendo recompras, UNA Y OTRA VEZ, A LO LARGO DEL TIEMPO.',
     },

@@ -85,7 +85,7 @@ var Nav = () => {
       </li>
       <li>
         <FaHandshake className={NavStyle.submenuIcon} />
-        <Link href="./Trabajemos">TRABAJEMOS</Link>
+        <Link href="./Trabajemos">OPORTUNIDADES</Link>
       </li>
           </ul>
         </li>
