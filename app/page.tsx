@@ -5,11 +5,12 @@ import SectionFor from "./Home/SectionFor/sectionfor.jsx";
 import SectionFive from "./Home/SectionFive/sectionFive.jsx";
 import SectionVideo from "./Home/SectionVideo/sectionVideo.jsx";
 import LandingStyle from "./page.module.css";
-import Layout from "./components/LandingPage/Layout/layout.jsx";
 import Image from "next/image";
+import Layout from './components/LandingPage/Layout/layout';
 
 var Home = () => {
   return (
+    
     <Layout>
       <div className={LandingStyle.contentVideo}>
         <SectionVideo />

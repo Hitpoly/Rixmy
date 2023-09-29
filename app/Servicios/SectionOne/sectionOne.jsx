@@ -20,7 +20,7 @@ const SectionOne = () => {
       style={{
         width: '100%',
         height: '100vh',
-        backgroundImage: "url('/images/services.jpg')",
+        backgroundImage: "url('/images/services.webp')",
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',

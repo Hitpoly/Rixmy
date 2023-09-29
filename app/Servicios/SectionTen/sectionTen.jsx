@@ -20,7 +20,7 @@ const SectionTen = () => {
       style={{
         width: '100%',
         height: '100vh',
-        backgroundImage: "url('/images/other_services_2.jpg')",
+        backgroundImage: "url('/images/other_services_2.webp')",
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',

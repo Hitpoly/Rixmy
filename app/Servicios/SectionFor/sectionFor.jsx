@@ -20,7 +20,7 @@ const SectionFor = () => {
       style={{
         width: '100%',
         height: '100vh',
-        backgroundImage: "url('/images/to_attract_your_buyer_persona_3.jpg')",
+        backgroundImage: "url('/images/to_attract_your_buyer_persona_3.webp')",
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',

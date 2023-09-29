@@ -20,7 +20,7 @@ const SectionNine = () => {
       style={{
         width: '100%',
         height: '100vh',
-        backgroundImage: "url('/images/to_close_sales_with_your_buyer_persona_2.jpg')",
+        backgroundImage: "url('/images/to_close_sales_with_your_buyer_persona_2.webp')",
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',

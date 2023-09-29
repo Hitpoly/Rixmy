@@ -20,7 +20,7 @@ const SectionEleven = () => {
       style={{
         width: '100%',
         height: '100vh',
-        backgroundImage: "url('/images/desarrolloWeb.jpg')",
+        backgroundImage: "url('/images/desarrolloWeb.webp')",
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',

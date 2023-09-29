@@ -9,7 +9,7 @@ const SectionThree = () => {
     altText: 'logo-section',
     title: 'COLABORAMOS A LA ECONOMIA GLOBAL',
     description: {
-      title: 'NUESTROS SISTEMAS LLEVAN MILES DE EMPLEOS AL REDEDOR DEL MUNDO.',
+      title: 'NUESTROS SISTEMAS LLEVAN MILES DE EMPLEOS ALREDEDOR DEL MUNDO.',
       text:
         'Este nuevo mundo industrial se ha sumergido cada vez más en un ecosistema llamado internet, el cual aporta muchos beneficios a la civilización actual, NO solo a las  empresas, SI NO tambien a profesionales de todo el mundo. Estamos comprometidos a educar y guiar a todos los colaboradores, QUE QUIERAN SUMARSE, para que JUNTOS llevemos soluciones empresariales de comunicación a EMPRESAS a nivel GLOBAL.',
     },

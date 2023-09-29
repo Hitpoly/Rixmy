@@ -10,7 +10,7 @@ const SectionOne = () => {
     altText: 'logo-section',
     title: 'MÁS QUE UNA AGENCIA DE MARKETING',
     description: {
-      title: 'SOMOS UNA RED QUE TE PERMITE CONCTAR CON TU PUBLICO.',
+      title: 'SOMOS UNA RED QUE TE PERMITE CONTACTAR CON TU PUBLICO.',
       text:
         'Nuestro equipo multidisciplinario de profesionales diseña estrategias y productos digitales personalizados para impulsar tu presencia en línea y alcanzar el éxito en el mundo digital.',
     },

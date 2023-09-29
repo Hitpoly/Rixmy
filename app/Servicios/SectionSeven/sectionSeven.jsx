@@ -20,7 +20,7 @@ const SectionSeven = () => {
       style={{
         width: '100%',
         height: '100vh',
-        backgroundImage: "url('/images/to_convert_your_buyer_persona.jpg')",
+        backgroundImage: "url('/images/to_convert_your_buyer_persona.webp')",
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',

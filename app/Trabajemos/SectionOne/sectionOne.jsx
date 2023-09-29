@@ -9,15 +9,15 @@ const SectionOne = () => {
       <div className={SectionThreeStyle.content}>
         <div className={SectionThreeStyle.logo}>
           <Image src='/images/section_logo.svg' alt='logo' width={100} height={100}/>
-          <span>TRABAJÁMOS EN TODO LATINOAMERICA</span>
+          <span>TRABAJAMOS EN TODO LATINOAMERICA</span>
         </div>
-        <h3>ESTAMOS EN BUSQUEDA DEL MEJOR TALENTO HUMANO.</h3>
+        <h3>ESTAMOS EN BÚSQUEDA DEL MEJOR TALENTO HUMANO.</h3>
         <p>Uno de nuestros diferenciadores principales, es el contar con profesionales de alto nivel, vanguardistas del mercado internacional. Rixmy se dispone a capacitarlos para sacar el máximo potencial de sus capacidades y crecer juntos.</p>
       </div>
       <div className={SectionThreeStyle.metodo}>
         <p className={SectionThreeStyle.letrasubrayada}>Profesionales de tráfico digital.</p>
         <p className={SectionThreeStyle.letrasubrayada}>Profesionales de gestión de cuentas.</p>
-        <p className={SectionThreeStyle.letrasubrayada}>Profesionales en diseño Multimedia.</p>
+        <p className={SectionThreeStyle.letrasubrayada}>Profesionales en diseño multimedia.</p>
       </div>
     </div>
   );

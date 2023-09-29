@@ -23,8 +23,8 @@ const SectionTwu = () => {
             <Image src="/images/perfiles/belgica.jpeg" alt="" className={styles.image} width={300} height={400}/>
           </div>
           <div className={styles.textContainer}>
-            <p className={styles.name}>Bélgica Gill</p>
-            <p className={styles.title}>Directa Gráfica.</p>
+            <p className={styles.name}>Bélgica Gil</p>
+            <p className={styles.title}>Directora Gráfica.</p>
             <p className={styles.description}>
               Todo hombre tiene la capacidad de crear, impulsar y potenciar el éxito de su propio destino.
             </p>
