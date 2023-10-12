@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import NavStyle from './nav.module.css';
-import { FaHome, FaUser, FaCog, FaBriefcase, FaChartLine, FaUsers, FaBlog, FaHandshake} from 'react-icons/fa';
+import { FaHome, FaUser, FaCog, FaBriefcase, FaBars, FaChartLine, FaUsers, FaBlog, FaHandshake, FaFlag } from 'react-icons/fa';
 
 var Nav = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -35,18 +35,18 @@ var Nav = () => {
     <ul className={NavStyle.containerNav}>
       <li className={NavStyle.containerLogo}>
         <Link href="/">
-          <Image src="/images/rixmy_logo.png" alt="Logo" width={400} height={300}/>
+          <Image src="/images/rixmy_logo.png" alt="Logo" width={400} height={300} />
         </Link>
       </li>
-      <li className={NavStyle.liiconidioma}>
-        <Image src="/images/es.png" alt="Menú" width={80} height={80} className={NavStyle.iconIdioma} />
+      <li className={NavStyle.login}>
+        <FaUser className={NavStyle.iconLogin} />
       </li>
+      <li className={NavStyle.liiconidioma}>
+        <FaFlag className={NavStyle.iconIdioma} />
+      </li>
+
       <li>
-        <Image
-          src="/images/menu-uno.png"
-          alt="Idioma"
-          width={80}
-          height={80}
+        <FaBars
           className={NavStyle.iconMenu}
           onClick={toggleMenu}
         />
@@ -60,33 +60,33 @@ var Nav = () => {
               <Link href="/">INICIO</Link>
             </li>
             <li>
-        <FaUser className={NavStyle.submenuIcon} />
-        <Link href="./Nosotros">NOSOTROS</Link>
-      </li>
-      <li>
-        <FaChartLine className={NavStyle.submenuIcon} />
-        <Link href="./QueHacemos">¿QUE HACEMOS?</Link>
-      </li>
-      <li>
-        <FaCog className={NavStyle.submenuIcon} />
-        <Link href="./Estrategia">ESTRATÉGIA</Link>
-      </li>
-      <li>
-        <FaBriefcase className={NavStyle.submenuIcon} />
-        <Link href="./Servicios">SERVICIOS</Link>
-      </li>
-      <li>
-        <FaUsers className={NavStyle.submenuIcon} />
-        <Link href="./Equipo">EQUIPO</Link>
-      </li>
-      <li>
-        <FaBlog className={NavStyle.submenuIcon} />
-        <Link href="/">BLOG</Link>
-      </li>
-      <li>
-        <FaHandshake className={NavStyle.submenuIcon} />
-        <Link href="./Trabajemos">OPORTUNIDADES</Link>
-      </li>
+              <FaUser className={NavStyle.submenuIcon} />
+              <Link href="./Nosotros">NOSOTROS</Link>
+            </li>
+            <li>
+              <FaChartLine className={NavStyle.submenuIcon} />
+              <Link href="./QueHacemos">¿QUE HACEMOS?</Link>
+            </li>
+            <li>
+              <FaCog className={NavStyle.submenuIcon} />
+              <Link href="./Estrategia">ESTRATÉGIA</Link>
+            </li>
+            <li>
+              <FaBriefcase className={NavStyle.submenuIcon} />
+              <Link href="./Servicios">SERVICIOS</Link>
+            </li>
+            <li>
+              <FaUsers className={NavStyle.submenuIcon} />
+              <Link href="./Equipo">EQUIPO</Link>
+            </li>
+            <li>
+              <FaBlog className={NavStyle.submenuIcon} />
+              <Link href="/">BLOG</Link>
+            </li>
+            <li>
+              <FaHandshake className={NavStyle.submenuIcon} />
+              <Link href="./Trabajemos">OPORTUNIDADES</Link>
+            </li>
           </ul>
         </li>
       )}

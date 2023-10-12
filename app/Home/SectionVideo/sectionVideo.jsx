@@ -82,9 +82,9 @@ const SectionVideo = () => {
           <div className={SectionStyle.mainTextSection}>
             {/* Título animado */}
             {showText && (
-              <div className={SectionStyle.mainTitle}>
-                {typedText}
-              </div>
+              <h1 className={SectionStyle.mainTitle}>
+              {typedText}
+              </h1>
             )}
             {/* Párrafo animado */}
             {showParagraph && (

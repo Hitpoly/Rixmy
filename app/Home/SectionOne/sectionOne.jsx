@@ -2,7 +2,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import TextoSection from '../../components/LandingPage/TextoSeccion/Texto';
 import SectionOneStyle from './sectionOne.module.css';
-import Link from 'next/link';
 
 const SectionOne = () => {
   const [opacity, setOpacity] = useState(0);
