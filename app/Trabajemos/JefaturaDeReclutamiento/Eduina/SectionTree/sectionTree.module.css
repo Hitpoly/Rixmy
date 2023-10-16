@@ -1,0 +1,233 @@
+.sectionTwoContainer{
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/expectations.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content {
+    position: relative;
+    width: 45%;
+    color: white;
+    left: 10px;
+    margin-left: 2.5%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 4%;
+    font-size: .9em;
+  }
+  
+  .logo img {
+    width: 70px; /* La imagen ocupa el 100% del ancho disponible en .logo */
+    height: auto;
+    margin-bottom: 5px;
+
+  }
+
+  
+  .content h3 {
+    width: 90%;
+    font-size: 3em;
+    font-weight: 900;
+    margin-bottom: 4%;
+  }
+  .content p {
+    font-size: 1.2em;
+    width: 90%;
+  }
+
+  .containerImagen {
+    display: flex;
+    width: 45%;
+    height: 600px;
+    padding: 5px;
+    margin: 0%;
+    border-radius: 5px;
+    margin-left: 30px;
+  }
+  
+  .imagen {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    margin: 0%;
+  }
+  
+  .imagen img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .metodo {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 30px;
+    color: white;
+    gap: 15px;
+  }
+
+  .metodo p{
+    font-size: 1.3em;
+    font-weight: 900;
+  }
+
+  .metodo .letrasubrayada::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid white;
+    margin-top: 5px;
+    width: 80%;
+  }
+  
+
+
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    .containerVideo {
+        margin-left: 40px;
+        height: 280px;
+      }
+      .youtubeVideo{
+        height: 100%;
+      }
+      .content h3 {
+        font-size: 2.5em;
+        font-weight: 900;
+      }
+      .content p {
+        font-size: 1.2em;
+        width: 90%;
+      }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+
+    .sectionTwoContainer {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      padding-top: 10px;
+      padding-bottom: 0px;
+    }
+  
+    .content {
+      display: flex;
+      position: relative;
+      top: 50px;
+      width: 90%;
+      color: white;
+      left: 0px;
+      order: 1; /* Orden de .content a 1 */
+    }
+  
+    .content h3 {
+      font-size: 2em;
+      font-weight: 900;
+    }
+  
+    .content p {
+      font-size: .9em;
+      width: 90%;
+    }
+  
+    .containerImagen {
+      width: 600px;
+      height: 500px;
+      order: 2; /* Orden de .containerImagen a 2 */
+    }
+
+  }
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    .sectionTwoContainer {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      padding-top: 10px;
+      padding-bottom: 0px;
+    }
+  
+    .content {
+      display: flex;
+      position: relative;
+      top: 50px;
+      width: 90%;
+      color: white;
+      left: 0px;
+      order: 1; /* Orden de .content a 1 */
+    }
+  
+    .content h3 {
+      font-size: 2em;
+      font-weight: 900;
+    }
+  
+    .content p {
+      font-size: .9em;
+      width: 90%;
+    }
+  
+    .containerImagen {
+      width: 400px;
+      height: 450px;
+      order: 2; /* Orden de .containerImagen a 2 */
+    }
+  }
+  
+  @media (max-width: 480px) {
+
+    .sectionTwoContainer {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      padding-top: 10px;
+      padding-bottom: 0px;
+    }
+  
+    .content {
+      display: flex;
+      position: relative;
+      top: 50px;
+      width: 90%;
+      color: white;
+      left: 0px;
+      order: 1; /* Orden de .content a 1 */
+    }
+  
+    .content h3 {
+      font-size: 2em;
+      font-weight: 900;
+    }
+  
+    .content p {
+      font-size: .9em;
+      width: 90%;
+    }
+  
+    .containerImagen {
+      width: 90%;
+      height: 400px;
+      order: 2; /* Orden de .containerImagen a 2 */
+    }
+  
+  }
+  
