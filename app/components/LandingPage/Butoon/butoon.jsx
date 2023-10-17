@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const MiBoton = ({ href, texto, onClick }) => {
   const handleLinkClick = () => {
@@ -10,9 +11,9 @@ const MiBoton = ({ href, texto, onClick }) => {
   };
 
   return (
-    <a href={href} onClick={handleLinkClick} style={{ textDecoration: 'none', margin:'1px',marginTop:'5px', display: 'inline-block', padding: '10px 20px', width: '100%', backgroundColor: '#E03138', color: '#fff', borderRadius: '5px', cursor: 'pointer', textAlign:'center',}}>
+    <Link href={href} onClick={handleLinkClick} style={{ textDecoration: 'none', margin:'1px',marginTop:'5px', display: 'inline-block', padding: '10px 20px', width: '100%', backgroundColor: '#E03138', color: '#fff', borderRadius: '5px', cursor: 'pointer', textAlign:'center',}}>
       {texto}
-    </a>
+    </Link>
   );
 };
 
