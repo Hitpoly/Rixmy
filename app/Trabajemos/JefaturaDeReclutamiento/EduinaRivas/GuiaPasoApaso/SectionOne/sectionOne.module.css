@@ -1,12 +1,13 @@
 .sectionThree {
     width: 100%;
     height: 100vh;
-    background-image: url('/images/services.webp');
+    background-image: url('/images/pexels-mart-production-7550312.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
+    justify-content: center;
     position: relative;
     font-family: 'Montserrat', sans-serif;
   }
@@ -46,13 +47,13 @@
   }
   
   .metodo {
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-content: center;
     color: white;
+    margin-top: 100px;
     margin-left: 10%;
-    margin-top: 10%;
     gap: 15px;
   }
 
@@ -62,18 +63,39 @@
   }
   
   .metodo p{
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 900;
+    text-align: center;
   }
 
-  .metodo .letrasubrayada::after {
-    content: "";
-    display: block;
-    border-bottom: 2px solid white;
-    margin-top: 5px;
+  .metodo .letrasubrayada {
     width: 80%;
+    background-color: white; /* Color de fondo del botón (cambia esto según tus preferencias) */
+    color: #E03138; /* Color del texto del botón */
+    padding: 10px 15px; /* Ajusta el relleno según tus preferencias */
+    border-radius: 2px; /* Ajusta el radio del borde según tus preferencias */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
   }
 
+  .enlace{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366; /* Color de fondo de WhatsApp */
+    color: #fff; /* Color del texto */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    max-width: 250px;
+    word-wrap: break-word;
+}
+
+.iconowhatsapp{
+    font-size: 2em;
+}
+
+  
 
   @media (min-width: 1024px) and (max-width: 1279px) {
   }
@@ -83,69 +105,17 @@
       display: flex;
       align-items: baseline;
       flex-direction: column;
+      height: 100%;
     }
     .content {
-      width: 60%;
+      width: 70%;
       height: 90%;
       color: white;
       display: flex;
       flex-direction: column;
       align-items: baseline;
       right: 0%;
-      position: relative;
-    }
-    .logo {
-      margin-bottom: 4%;
-      font-size: .8em;
-    }
-    
-    .logo img {
-      width: 70px; /* La imagen ocupa el 100% del ancho disponible en .logo */
-      height: auto;
-  
-    }
-    .sectionThree h3 {
-      font-size: 1.8em;
-    }
-  
-    .sectionThree .logo p {
-      font-size: .9em;
-      width: 100%;
-    }
-    .sectionThree p {
-      font-size: 1em;
-      width: 100%;
-    }
-
-    .metodo {
-      width: 90%;
-      display: flex;
-      flex-direction: row;
-      align-content: center;
-      color: white;
-      margin-left: 0%;
-      position: relative;
-      bottom: 20%;
-      gap: 15px;
-    }
-  }
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-
-    .sectionThree {
-      display: flex;
-      align-items: baseline;
-      flex-direction: column;
-    }
-    .content {
-      width: 60%;
-      height: 90%;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      align-items: baseline;
-      right: 0%;
-      margin-top: 5%;
+      margin-top: 100px;
       position: relative;
     }
     .logo {
@@ -160,6 +130,7 @@
     }
     .sectionThree h3 {
       font-size: 2em;
+      margin-bottom:30px;
     }
   
     .sectionThree .logo p {
@@ -172,15 +143,81 @@
     }
 
     .metodo {
-      width: 70%;
+      width: 90%;
       display: flex;
       flex-direction: column;
       align-content: center;
       color: white;
       margin-left: 0%;
+      margin-top: 40px;
+      margin-bottom: 50px;
       position: relative;
-      bottom: 4%;
       gap: 15px;
+    }
+
+    .metodo .letrasubrayada {
+      width: 90%;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    .sectionThree {
+      display: flex;
+      align-items: baseline;
+      flex-direction: column;
+      height: 100%;
+    }
+    .content {
+      width: 70%;
+      height: 90%;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+      right: 0%;
+      margin-top: 100px;
+      position: relative;
+    }
+    .logo {
+      margin-bottom: 4%;
+      font-size: .8em;
+    }
+    
+    .logo img {
+      width: 70px; /* La imagen ocupa el 100% del ancho disponible en .logo */
+      height: auto;
+  
+    }
+    .sectionThree h3 {
+      font-size: 2em;
+      margin-bottom:30px;
+    }
+  
+    .sectionThree .logo p {
+      font-size: .9em;
+      width: 100%;
+    }
+    .sectionThree p {
+      font-size: 1em;
+      width: 100%;
+    }
+
+    .metodo {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      color: white;
+      margin-left: 0%;
+      margin-top: 40px;
+      margin-bottom: 50px;
+      position: relative;
+      gap: 15px;
+    }
+
+    .metodo .letrasubrayada {
+      width: 90%;
     }
 
     
@@ -192,7 +229,7 @@
       display: flex;
       align-items: baseline;
       flex-direction: column;
-      height: 110vh;
+      height: 100%;
     }
     .content {
       width: 70%;
@@ -202,7 +239,7 @@
       flex-direction: column;
       align-items: baseline;
       right: 0%;
-      margin-top: 5%;
+      margin-top: 100px;
       position: relative;
     }
     .logo {
@@ -217,6 +254,7 @@
     }
     .sectionThree h3 {
       font-size: 2em;
+      margin-bottom:30px;
     }
   
     .sectionThree .logo p {
@@ -235,9 +273,14 @@
       align-content: center;
       color: white;
       margin-left: 0%;
+      margin-top: 40px;
+      margin-bottom: 100px;
       position: relative;
-      bottom: 8%;
       gap: 15px;
+    }
+
+    .metodo .letrasubrayada {
+      width: 90%;
     }
     
   }

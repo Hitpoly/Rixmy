@@ -1,7 +1,11 @@
+'use client'
+
 import SectionThreeStyle from './sectionOne.module.css';
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const SectionOne = () => {
 
@@ -13,15 +17,18 @@ const SectionOne = () => {
           <span>GUÍA PARA RECLUTADORES</span>
         </div>
         <h3>GUÍA PASO A PASO PARA EL RECLUTADOR EN RIXMY.</h3>
-        <p>Colaborar en rixmy es un gran desafío, es por eso que solo están los mejores colaborando con nosostros. Partiendo de allí, te dejamos una guía paso a paso, para que puedas iniciar tu camino como reclutador y tener éxito con nosotros. Recuerda que siempre estamos a tu disposición para aclarar cualquiera de tus dudas. ¡Mucho Éxito!</p>
+        <p>Colaborar en rixmy es un gran desafío, es por eso que solo nos acompañan los mejores. Partiendo de allí, te dejamos una guía paso a paso, para que puedas iniciar tu camino como reclutador y tener éxito con nosotros. Recuerda que siempre estamos a tu disposición para aclarar cualquiera de tus dudas. ¡Mucho Éxito!</p>
       </div>
       <div className={SectionThreeStyle.metodo}>
-      <Link href="./GuiaPasoApaso/InformacionImportante"><p className={SectionThreeStyle.letrasubrayada}>#1. Información Importante.</p></Link>
-        <Link href="https://bit.ly/45uxsDr"><p className={SectionThreeStyle.letrasubrayada}>#2. Solicita tu material.</p></Link>
-        <Link href="https://bit.ly/46CRHAj"><p className={SectionThreeStyle.letrasubrayada}>#3. Solicita una reunión, para recibir instrucciones.</p></Link>
-        <Link href="https://bit.ly/3tELHso"><p className={SectionThreeStyle.letrasubrayada}>#4. Únete a la comunidad de Whatsapp.</p></Link>
-        <Link href="https://bit.ly/3PX4JBK"><p className={SectionThreeStyle.letrasubrayada}>#5. Únete a la comunidad de Facebook.</p></Link> 
+      <Link href="./GuiaPasoApaso/InformacionImportante"><p className={SectionThreeStyle.letrasubrayada}>INFORMACIÓN IMPORTANTE</p></Link>
+        <Link href="https://bit.ly/45uxsDr"><p className={SectionThreeStyle.letrasubrayada}>SOLICÍTA TU MATERIAL</p></Link>
+        <Link href="https://bit.ly/46CRHAj"><p className={SectionThreeStyle.letrasubrayada}>SOLICÍTA INSTRUCCIONES</p></Link>
+        <Link href="https://bit.ly/3tELHso"><p className={SectionThreeStyle.letrasubrayada}>COMUNIDAD DE WHATSAPP</p></Link>
+        <Link href="https://bit.ly/3PX4JBK"><p className={SectionThreeStyle.letrasubrayada}>COMUNIDAD DE FACEBOOK</p></Link> 
       </div>
+      <Link href="https://api.whatsapp.com/send?phone=584241246388" className={SectionThreeStyle.enlace}>
+        <FontAwesomeIcon icon={faWhatsapp} className={SectionThreeStyle.iconowhatsapp}/>
+    </Link>
     </div>
   );
 };

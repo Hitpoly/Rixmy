@@ -39,7 +39,7 @@ const SectionFive = () => {
           <Image src='/images/section_logo.svg' alt='logo' width={100} height={100}/>
           <span>IMPULSA TU ÉXITO</span>
         </div>
-        <h3>EL MOMENTO ES AHORA “ÚNETE A LA TRANSFORMACIÓN DIGITAL E IMPULSA TU ÉXITO”</h3>
+        <h3>“ÚNETE A LA TRANSFORMACIÓN DIGITAL E IMPULSA TU ÉXITO” EL MOMENTO ES AHORA</h3>
         <p>Unete a RIXMY y vive ya expericia de ayudar mientras hacemos lo que mas nos gusta y ganando lo que siempre deseamos. Cada vez somos más!!</p>
       </div>
     </div>
