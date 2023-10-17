@@ -103,17 +103,16 @@
       display: flex;
       flex-direction: column;
       height: 100vh;
-      padding-top: 10px;
-      padding-bottom: 0px;
+      justify-content: center;
     }
   
     .content {
       display: flex;
       position: relative;
-      top: 50px;
+      margin-bottom: 30px;
+      margin-left: 2.5%;
       width: 90%;
       color: white;
-      left: 0px;
     }
   
     .content h3 {
@@ -125,12 +124,14 @@
       font-size: .9em;
       width: 90%;
     }
+
     .metodo {
-      position: relative;
       width: 90%;
       margin-left: 20px;
-      font-size: .9em;
-      top: 80px;
+    }
+    .metodo p {
+      font-size: 1em;
+      width: 90%;
     }
   
 
@@ -142,17 +143,16 @@
       display: flex;
       flex-direction: column;
       height: 100vh;
-      padding-top: 10px;
-      padding-bottom: 0px;
+      justify-content: center;
     }
   
     .content {
       display: flex;
       position: relative;
-      top: 50px;
+      margin-bottom: 30px;
+      margin-left: 2.5%;
       width: 90%;
       color: white;
-      left: 0px;
     }
   
     .content h3 {
@@ -164,12 +164,14 @@
       font-size: .9em;
       width: 90%;
     }
+
     .metodo {
-      position: relative;
       width: 90%;
       margin-left: 20px;
-      font-size: .9em;
-      top: 80px;
+    }
+    .metodo p {
+      font-size: 1em;
+      width: 90%;
     }
   }
   
@@ -179,14 +181,12 @@
       display: flex;
       flex-direction: column;
       height: 100vh;
-      padding-top: 10px;
-      padding-bottom: 0px;
+      justify-content: center;
     }
   
     .content {
       display: flex;
       position: relative;
-      margin-top: 50px;
       margin-bottom: 30px;
       margin-left: 2.5%;
       width: 90%;
