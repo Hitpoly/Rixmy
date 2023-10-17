@@ -48,7 +48,7 @@ RECLUTADORES</span>
       <div className={EduinaStyle.containerVideo}>
       <div className={EduinaStyle.video}>
       <YouTube videoId={videoId} opts={opts} className={EduinaStyle.youtubeVideo} />
-      <MiBoton href="https://forms.gle/PHDZq7dHkjo5xr5p9" texto="RESPONDE ESTA ENCUENTA" onClick={handleButtonClick} />
+      <MiBoton href="https://forms.gle/PPyoicLgZB2FTtTi6" texto="RESPONDE ESTA ENCUENTA" onClick={handleButtonClick} />
       </div>
       </div>
     </div>

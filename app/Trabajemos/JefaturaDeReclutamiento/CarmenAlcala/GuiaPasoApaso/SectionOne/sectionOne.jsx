@@ -17,10 +17,10 @@ const SectionOne = () => {
       </div>
       <div className={SectionThreeStyle.metodo}>
       <Link href="./GuiaPasoApaso/InformacionImportante"><p className={SectionThreeStyle.letrasubrayada}>#1. Información Importante.</p></Link>
-        <Link href="https://bit.ly/3rJLt2A"><p className={SectionThreeStyle.letrasubrayada}>#2. Solicita tu material.</p></Link>
-        <Link href="https://bit.ly/46TTuRs"><p className={SectionThreeStyle.letrasubrayada}>#3. Solicita una reunión, para recibir instrucciones.</p></Link>
-        <Link href="https://bit.ly/48TpqHg"><p className={SectionThreeStyle.letrasubrayada}>#4. Únete a la comunidad de Whatsapp.</p></Link>
-        <Link href="https://bit.ly/3ZXj05O"><p className={SectionThreeStyle.letrasubrayada}>#5. Únete a la comunidad de Facebook.</p></Link> 
+        <Link href="https://bit.ly/3M3d3ib"><p className={SectionThreeStyle.letrasubrayada}>#2. Solicita tu material.</p></Link>
+        <Link href="https://bit.ly/3QhHqDZ"><p className={SectionThreeStyle.letrasubrayada}>#3. Solicita una reunión, para recibir instrucciones.</p></Link>
+        <Link href="https://bit.ly/45xtE4r"><p className={SectionThreeStyle.letrasubrayada}>#4. Únete a la comunidad de Whatsapp.</p></Link>
+        <Link href="https://bit.ly/400fYxz"><p className={SectionThreeStyle.letrasubrayada}>#5. Únete a la comunidad de Facebook.</p></Link> 
       </div>
     </div>
   );

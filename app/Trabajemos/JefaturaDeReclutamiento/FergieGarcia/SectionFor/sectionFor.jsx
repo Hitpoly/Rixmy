@@ -26,7 +26,7 @@ const SectionFor = () => {
         <p className={SectionForStyle.letrasubrayada}>Te damos todas las herramientas y material necesario.</p>
         <p className={SectionForStyle.letrasubrayada}>No somos MULTINIVEL aquí no tienes que PAGAR NADA, llegas a GANAR.</p>
         <div className={SectionForStyle.butoon} >
-      <MiBoton href="https://forms.gle/HvWM4nd6XAQBoRks5" texto="AHORA SI QUIERO UNIRME!" onClick={handleButtonClick} />
+      <MiBoton href="https://forms.gle/PafBAnxEuwtMFSPN7" texto="AHORA SI QUIERO UNIRME!" onClick={handleButtonClick} />
       </div>
       </div>
     </div>

@@ -102,7 +102,7 @@
     .sectionTwoContainer {
       display: flex;
       flex-direction: column;
-      height: 100%;
+      height: 100vh;
       padding-top: 10px;
       padding-bottom: 0px;
     }
@@ -114,7 +114,6 @@
       width: 90%;
       color: white;
       left: 0px;
-      order: 1; /* Orden de .content a 1 */
     }
   
     .content h3 {
@@ -126,12 +125,14 @@
       font-size: .9em;
       width: 90%;
     }
-  
-    .containerImagen {
-      width: 600px;
-      height: 500px;
-      order: 2; /* Orden de .containerImagen a 2 */
+    .metodo {
+      position: relative;
+      width: 90%;
+      margin-left: 20px;
+      font-size: .9em;
+      top: 80px;
     }
+  
 
   }
   
@@ -140,7 +141,7 @@
     .sectionTwoContainer {
       display: flex;
       flex-direction: column;
-      height: 100%;
+      height: 100vh;
       padding-top: 10px;
       padding-bottom: 0px;
     }
@@ -152,7 +153,6 @@
       width: 90%;
       color: white;
       left: 0px;
-      order: 1; /* Orden de .content a 1 */
     }
   
     .content h3 {
@@ -164,11 +164,12 @@
       font-size: .9em;
       width: 90%;
     }
-  
-    .containerImagen {
-      width: 400px;
-      height: 450px;
-      order: 2; /* Orden de .containerImagen a 2 */
+    .metodo {
+      position: relative;
+      width: 90%;
+      margin-left: 20px;
+      font-size: .9em;
+      top: 80px;
     }
   }
   
@@ -203,7 +204,7 @@
     }
 
     .metodo {
-      width: 80%;
+      width: 90%;
       margin-left: 20px;
     }
     .metodo p {

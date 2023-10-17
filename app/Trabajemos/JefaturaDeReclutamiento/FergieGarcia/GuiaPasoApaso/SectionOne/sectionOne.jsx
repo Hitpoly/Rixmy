@@ -16,11 +16,11 @@ const SectionOne = () => {
         <p>Colaborar en rixmy es un gran desafío, es por eso que solo están los mejores colaborando con nosostros. Partiendo de allí, te dejamos una guía paso a paso, para que puedas iniciar tu camino como reclutador y tener éxito con nosotros. Recuerda que siempre estamos a tu disposición para aclarar cualquiera de tus dudas. ¡Mucho Éxito!</p>
       </div>
       <div className={SectionThreeStyle.metodo}>
-      <Link href="./InformacionImportante"><p className={SectionThreeStyle.letrasubrayada}>#1. Información Importante.</p></Link>
-        <Link href="https://bit.ly/3rJLt2A"><p className={SectionThreeStyle.letrasubrayada}>#2. Solicita tu material.</p></Link>
-        <Link href="https://bit.ly/46TTuRs"><p className={SectionThreeStyle.letrasubrayada}>#3. Solicita una reunión, para recibir instrucciones.</p></Link>
-        <Link href="https://bit.ly/48TpqHg"><p className={SectionThreeStyle.letrasubrayada}>#4. Únete a la comunidad de Whatsapp.</p></Link>
-        <Link href="https://bit.ly/3ZXj05O"><p className={SectionThreeStyle.letrasubrayada}>#5. Únete a la comunidad de Facebook.</p></Link> 
+      <Link href="./GuiaPasoApaso/InformacionImportante"><p className={SectionThreeStyle.letrasubrayada}>#1. Información Importante.</p></Link>
+        <Link href="https://bit.ly/3QjdLKr"><p className={SectionThreeStyle.letrasubrayada}>#2. Solicita tu material.</p></Link>
+        <Link href="https://bit.ly/46MIaWU"><p className={SectionThreeStyle.letrasubrayada}>#3. Solicita una reunión, para recibir instrucciones.</p></Link>
+        <Link href="https://bit.ly/405uRyY"><p className={SectionThreeStyle.letrasubrayada}>#4. Únete a la comunidad de Whatsapp.</p></Link>
+        <Link href="https://bit.ly/3rYSRHa"><p className={SectionThreeStyle.letrasubrayada}>#5. Únete a la comunidad de Facebook.</p></Link> 
       </div>
     </div>
   );
