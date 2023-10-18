@@ -51,7 +51,7 @@ comercio.</p>
       <div className={EduinaStyle.containerVideo}>
       <div className={EduinaStyle.video}>
       <YouTube videoId={videoId} opts={opts} className={EduinaStyle.youtubeVideo} />
-      <MiBoton href="https://forms.gle/57DehCheS6FTWUJg6" texto="QUIERO UNIRME!" onClick={handleButtonClick} />
+      <MiBoton href="https://forms.gle/YiQLp6LfZC5BW8aPA" texto="QUIERO UNIRME!" onClick={handleButtonClick} />
       </div>
       </div>
     </div>
