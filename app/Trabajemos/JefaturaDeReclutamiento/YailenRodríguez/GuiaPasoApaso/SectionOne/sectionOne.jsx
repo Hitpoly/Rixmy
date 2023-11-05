@@ -21,12 +21,12 @@ const SectionOne = () => {
       </div>
       <div className={SectionThreeStyle.metodo}>
       <Link href="./GuiaPasoApaso/InformacionImportante"><p className={SectionThreeStyle.letrasubrayada}>INFORMACIÓN IMPORTANTE</p></Link>
-        <Link href="https://bit.ly/495fV84"><p className={SectionThreeStyle.letrasubrayada}> SOLICÍTA TU MATERIAL</p></Link>
-        <Link href="https://bit.ly/3Q8VrlY"><p className={SectionThreeStyle.letrasubrayada}>SOLICÍTA INSTRUCCIONES</p></Link>
-        <Link href="https://bit.ly/407CyEz"><p className={SectionThreeStyle.letrasubrayada}>COMUNIDAD DE WHATSAPP</p></Link>
-        <Link href="https://bit.ly/3Q9yxex"><p className={SectionThreeStyle.letrasubrayada}>COMUNIDAD DE FACEBOOK</p></Link> 
+        <Link href="https://bit.ly/3MtRk32"><p className={SectionThreeStyle.letrasubrayada}> SOLICÍTA TU MATERIAL</p></Link>
+        <Link href="https://bit.ly/3MtRk32"><p className={SectionThreeStyle.letrasubrayada}>SOLICÍTA INSTRUCCIONES</p></Link>
+        <Link href="https://chat.whatsapp.com/DPJesoRIh6G3dwTpSdxeoA"><p className={SectionThreeStyle.letrasubrayada}>COMUNIDAD DE WHATSAPP</p></Link>
+        <Link href="https://www.facebook.com/groups/1389286465339961/"><p className={SectionThreeStyle.letrasubrayada}>COMUNIDAD DE FACEBOOK</p></Link> 
       </div>
-      <Link href="https://api.whatsapp.com/send?phone=584126039855" className={SectionThreeStyle.enlace}>
+      <Link href="https://api.whatsapp.com/send?phone=5352997176" className={SectionThreeStyle.enlace}>
         <FontAwesomeIcon icon={faWhatsapp} className={SectionThreeStyle.iconowhatsapp}/>
     </Link>
     </div>

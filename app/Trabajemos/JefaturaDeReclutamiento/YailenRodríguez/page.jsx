@@ -18,7 +18,7 @@ const Eduina = () => {
     <SectionTree/>
     <SectionFor/>
     <SectionFive/>
-    <Link href="https://api.whatsapp.com/send?phone=584126039855" className={Style.enlace}>
+    <Link href="https://api.whatsapp.com/send?phone=5352997176" className={Style.enlace}>
         <FontAwesomeIcon icon={faWhatsapp} className={Style.iconowhatsapp}/>
     </Link>
  </div>
