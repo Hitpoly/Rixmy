@@ -1,0 +1,122 @@
+.containerSectionFor {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/to_attract_your_buyer_persona_4.webp');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+  }
+
+  /*Contenido y after de contenico circular de la equina*/
+
+  .contentFor {
+    width: 100%;
+    height:90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 3%;
+    margin-left: 1.5%;
+    margin-top: 6%;
+    position: relative;
+    
+  }
+  
+
+.contenido {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
+  margin-left: 3%;
+  width: 93.5%;
+}
+
+.contenidologo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4%;
+  font-size: .9em;
+  width: 100%;
+}
+
+.contenidologo img {
+  width: 6.5%; /* La imagen ocupa el 100% del ancho disponible en .logo */
+  height: auto;
+
+}
+
+.contentFor h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+  width: 40%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.contentFor p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  width: 70%;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .contenidologo img {
+    width: 20%; /* La imagen ocupa el 100% del ancho disponible en .logo */
+    height: auto;
+  
+  }
+  
+
+  .contenidologo p{
+    font-size: .8em;
+  }
+  .contentFor h3{
+    font-size: 1.8em;
+    width: 70%;
+  }
+  .contentFor .content p{
+    font-size: 1em;
+    width: 70%;
+  }
+
+
+
+}
+
+@media (max-width: 480px) {
+  .contenidologo img {
+    width: 20%; /* La imagen ocupa el 100% del ancho disponible en .logo */
+    height: auto;
+  
+  }
+  
+
+  .contenidologo p{
+    font-size: .8em;
+  }
+  .contentFor h3{
+    font-size: 2.3em;
+    width: 40%;
+  }
+  .contentFor .content p{
+    font-size: 1.1em;
+    width: 70%;
+  }
+
+
+}

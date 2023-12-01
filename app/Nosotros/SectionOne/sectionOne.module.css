@@ -1,0 +1,46 @@
+.sectionWrapper {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/more_than_a_marketing_agency.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+  }
+  
+  .contentWrapper {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-left: 1.5%;
+  }
+
+
+  @media (min-width: 1024px) and (max-width: 1279px){
+    .sectionWrapper{
+        height: 90vh;  
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px){
+    .sectionWrapper{
+      height: 90vh;  
+  }
+  }
+
+  @media (min-width: 481px) and (max-width: 767px){
+    .sectionWrapper{
+      height: 100vh;  
+  }
+  }
+
+  @media (max-width: 480px){
+    .sectionWrapper{
+      height: 100vh;  
+  }
+  }

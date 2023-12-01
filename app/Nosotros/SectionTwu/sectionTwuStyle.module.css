@@ -1,0 +1,164 @@
+.containerSectionFor {
+  width: 100%;
+  height: 100vh;
+  background-image: url('/images/evolve_with_us.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  position: relative;
+}
+
+.containerSectionFor::before {
+  content: "";
+  display: flex;
+  height: 150px;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  bottom: 88%;
+}
+
+/*Contenido y after de contenico circular de la equina*/
+
+.contentFor {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-left: 1.5%;
+  top: 15%;
+  position: relative;
+
+}
+.contenido {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
+  margin-left: 3%;
+  width: 93.5%;
+  gap: 10%;
+}
+
+.contentFor h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+  width: 40%;
+}
+
+.contentFor p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  width: 40%;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .containerSectionFor {
+    height: 100vh;
+  }
+
+  .containerSectionFor::before {
+    content: "";
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 88%;
+  }
+
+  .contentFor h3 {
+    font-size: 2em;
+  }
+
+  .contentFor p {
+    font-size: 1.1em;
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .containerSectionFor {
+    height: 90vh;
+  }
+
+  .containerSectionFor::before {
+    content: "";
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 88%;
+  }
+
+  .contentFor h3 {
+    font-size: 1.8em;
+  }
+
+  .contentFor p {
+    font-size: 1em;
+    width: 50%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .containerSectionFor {
+    height: 100vh;
+  }
+
+  .contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 3%;
+    width: 93.5%;
+  }
+  .containerSectionFor::before {
+    height: 100px;
+  }
+  .contentFor h3 {
+    font-size: 2em;
+    width: 70%;
+  }
+
+  .contentFor p {
+    margin-top: 20px;
+    font-size: 1em;
+    width: 70%;
+  }
+}
+
+@media (max-width: 480px) {
+  .containerSectionFor {
+    height: 100vh;
+  }
+  .contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 3%;
+    width: 93.5%;
+  }
+  .containerSectionFor::before {
+    height: 100px;
+  }
+  .contentFor h3 {
+    font-size: 2em;
+  }
+
+  .contentFor p {
+    margin-top: 20px;
+    font-size: 1em;
+    width: 50%;
+  }
+}

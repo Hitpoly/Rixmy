@@ -1,0 +1,51 @@
+.backgroundImage {
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/images/evolve_with_us.jpg');
+  }
+  
+  .container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    bottom: 10%;
+    color: white;
+  }
+
+  
+  @media (min-width: 1024px) and (max-width: 1279px) {
+
+    .backgroundImage {
+        height: 100vh;
+      }
+
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+
+  }
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+ 
+  }
+  
+  @media (max-width: 480px) {
+
+  }
