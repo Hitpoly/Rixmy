@@ -32,11 +32,23 @@ const SectionTwu = () => {
         </div>
         <div className={styles.memberContainer}>
           <div className={styles.imageContainer}>
+            <Image src="/images/perfiles/belgica.jpeg" alt="" className={styles.image} width={300} height={400}/>
+          </div>
+          <div className={styles.textContainer}>
+            <p className={styles.name}>Carlos Ochovo Sanchez.</p>
+            <p className={styles.title}>Gestor de proyectos.</p>
+            <p className={styles.description}>
+              En Rixmy, su éxito es nuestro proyecto más importante...
+            </p>
+          </div>
+        </div>
+        <div className={styles.memberContainer}>
+          <div className={styles.imageContainer}>
             <Image src="/images/perfiles/eduardo.jpeg" alt="" className={styles.image} width={300} height={400}/>
           </div>
           <div className={styles.textContainer}>
             <p className={styles.name}>Eduardo C. Ismael</p>
-            <p className={styles.title}>Director de Talento Humano.</p>
+            <p className={styles.title}>Director de Comercio.</p>
             <p className={styles.description}>
               La utopía es el inicio de todo progreso y el diseño de un futuro mejor.
             </p>
