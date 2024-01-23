@@ -32,7 +32,7 @@ const SectionTwu = () => {
         </div>
         <div className={styles.memberContainer}>
           <div className={styles.imageContainer}>
-            <Image src="/images/perfiles/belgica.jpeg" alt="" className={styles.image} width={300} height={400}/>
+            <Image src="/images/perfiles/Carlos.jpeg" alt="" className={styles.image} width={300} height={400}/>
           </div>
           <div className={styles.textContainer}>
             <p className={styles.name}>Carlos Ochovo Sanchez.</p>
