@@ -1,29 +1,106 @@
-import './globals.css'
-import React from 'react'
-import type { Metadata } from 'next'
-import Head from 'next/head';
-import { Inter } from 'next/font/google'
+'use client'
 
-const inter = Inter({ subsets: ['latin'] })
+import React, { useState, useEffect } from 'react';
+import SectionStyle from './sectionVideo.module.css';
+import Image from 'next/image';
 
-export const metadata: Metadata = {
-  title: 'Rixmy - Agencia especializada en Inbound Marketing',
-  description: 'Ayudamos a marcas y empresas a establecer relaciones duraderas con sus audiencias, convirtiéndolos en embajadores. Servicios de marketing internacional.',
-  keywords: 'Agencia de Marketing, Marketing Internacional, Estrategias de Marketing, Embajadores de Marca, Campañas Publicitarias, Marketing de Contenidos, Optimización de Conversión, SEO Multilingüe, Publicidad en Redes Sociales, Desarrollo de Estrategias de Marca, Consultoría de Marketing, Posicionamiento Web, Publicidad Online, Branding Internacional, Estrategias de Contenidos, Promoción de Marca, Marketing Digital, Creatividad Publicitaria, Servicios de Marketing, Agencia Digital, Innovación en Marketing, Marketing Estratégico, Gestión de Campañas, Publicidad Creativa, Estrategias Digitales, Marketing Online, Consultoría Estratégica, Marketing Global, Servicios de Publicidad.',
-  robots: 'index, follow',
-}
+const SectionVideo = () => {
+  const [showText, setShowText] = useState(false); // Controla la visibilidad del título animado
+  const [showParagraph, setShowParagraph] = useState(false); // Controla la visibilidad del párrafo animado
+  const [showParagraphFadeOut, setShowParagraphFadeOut] = useState(false); // Controla la animación de desvanecimiento del párrafo
+  const text = "AGENCIA DE MARKETING, ESPECIALIZADA EN INBOUND MARKETING."; // El texto a animar
+  const [typedText, setTypedText] = useState(''); // El texto actualmente escrito
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+  // Función para iniciar la animación del título
+  const startAnimation = () => {
+    let currentLength = 0;
+    let interval = setInterval(() => {
+      if (currentLength === text.length) {
+        clearInterval(interval);
+        setTimeout(() => {
+          setShowParagraphFadeOut(true);
+          setTimeout(() => {
+            setShowParagraph(false);
+          }, 4000); // Agrega un retraso de 4 segundos antes de ocultar el párrafo
+        }, 2000);
+      } else {
+        currentLength++;
+        setTypedText(text.slice(0, currentLength));
+        if (currentLength === text.length - 8) {
+          setShowParagraph(true);
+        }
+      }
+    }, 100);
+  };
+
+  // Función para iniciar la animación de desvanecimiento
+  const startFadeOutAnimation = () => {
+    let currentLength = text.length;
+    let interval = setInterval(() => {
+      if (currentLength === 0) {
+        clearInterval(interval);
+        setShowParagraphFadeOut(false);
+        startAnimation();
+      } else {
+        currentLength--;
+        setTypedText(text.slice(0, currentLength));
+      }
+    }, 100);
+  };
+
+  useEffect(() => {
+    setShowText(true);
+    startAnimation();
+  }, []);
+
+  useEffect(() => {
+    if (showParagraphFadeOut) {
+      startFadeOutAnimation();
+    }
+  }, [showParagraphFadeOut]);
+
   return (
-    <html lang="en">
-      <Head>
-      <meta http-equiv="Cache-Control" content="public, max-age=3600" />
-      </Head>
-      <body className={inter.className}>{children}</body>
-    </html>
-  )
-}
+    <div className={SectionStyle.containerSectionVideo}>
+      <div className={SectionStyle.backgroundVideo} style={{ width: '100%', height: '100vh' }}>
+        
+        <div className={SectionStyle.sombra}></div>
+      </div>
+      {/* Contenido principal */}
+      <div className={SectionStyle.content}>
+        <div className={SectionStyle.sectionWrapper}>
+          {/* Sección superior con logo y título */}
+          <div className={SectionStyle.topSection}>
+            <Image
+              src='/images/section_logo.svg'
+              width={100} height={100}
+              alt='logo'
+              style={{ width: 'auto', height: 'auto' }}
+            />
+            <span className={SectionStyle.titleSpan}>NOSOTROS</span>
+          </div>
+          {/* Sección de texto principal */}
+          <div className={SectionStyle.mainTextSection}>
+            {/* Título animado */}
+            {showText && (
+              <h1 className={SectionStyle.mainTitle}>
+              {typedText}
+              </h1>
+            )}
+            {/* Párrafo animado */}
+            {showParagraph && (
+              <p className={SectionStyle.descriptionParagraph}>
+                Conoce la mejor agencia especializada de inbound marketing del mercado latino americano.
+              </p>
+            )}
+            {/* Enlace del botón */}
+            <a className={SectionStyle.buttonLink} href="https://bit.ly/3LCSZ5X">
+              CONTACTAR Y COTIZAR
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default SectionVideo;

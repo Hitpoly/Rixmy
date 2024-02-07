@@ -8,7 +8,7 @@ const SectionVideo = () => {
   const [showText, setShowText] = useState(false); // Controla la visibilidad del título animado
   const [showParagraph, setShowParagraph] = useState(false); // Controla la visibilidad del párrafo animado
   const [showParagraphFadeOut, setShowParagraphFadeOut] = useState(false); // Controla la animación de desvanecimiento del párrafo
-  const text = "AGENCIA DE MARKETING INTERNACIONAL, ESPECIALIZADA EN INBOUND MARKETING."; // El texto a animar
+  const text = "AGENCIA DE MARKETING, ESPECIALIZADA EN INBOUND MARKETING."; // El texto a animar
   const [typedText, setTypedText] = useState(''); // El texto actualmente escrito
 
   // Función para iniciar la animación del título
@@ -89,7 +89,7 @@ const SectionVideo = () => {
             {/* Párrafo animado */}
             {showParagraph && (
               <p className={SectionStyle.descriptionParagraph}>
-                Te Ayudamos a aumentar la rentabilidad de tu EMPRESA, ESTABLECIENDO una relacion entre tu MARCA y tu CLIENTE.
+                Conoce la mejor agencia especializada de inbound marketing del mercado latino americano.
               </p>
             )}
             {/* Enlace del botón */}
