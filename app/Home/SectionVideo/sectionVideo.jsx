@@ -1,8 +1,8 @@
 'use client'
 
 import React, { useState, useEffect } from 'react';
-import SectionStyle from './sectionVideo.module.css';
 import Image from 'next/image';
+import SectionStyle from './sectionVideo.module.css';
 
 const SectionVideo = () => {
   const [showText, setShowText] = useState(false); // Controla la visibilidad del título animado
@@ -89,7 +89,7 @@ const SectionVideo = () => {
             {/* Párrafo animado */}
             {showParagraph && (
               <p className={SectionStyle.descriptionParagraph}>
-                Conoce la mejor agencia especializada de inbound marketing del mercado latino americano.
+                Conoce la mejor agencia especializada en inbound marketing del mercado latinoamericano.
               </p>
             )}
             {/* Enlace del botón */}
